@@ -1,5 +1,5 @@
 use anyhow::Result;
 
 fn main() -> Result<()> {
-    rust_bin::run()
+    rust_cli_template::run()
 }

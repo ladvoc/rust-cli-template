@@ -1,7 +1,15 @@
 [package]
-name = "rust-bin"
+name = "rust-cli-template"
+description = "CLI starter template for Rust."
 version = "0.1.0"
 edition = "2024"
+authors = ["Jacob Gelman <oss@jacobgelman.com>"]
+homepage = "https://github.com/ladvoc/rust-cli-template"
+repository = "https://github.com/ladvoc/rust-cli-template"
+categories = ["command-line-utilities"]
+keywords = ["cli"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.100"

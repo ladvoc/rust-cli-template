@@ -141,7 +141,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-bin"
+name = "rust-cli-template"
 version = "0.1.0"
 dependencies = [
  "anyhow",
