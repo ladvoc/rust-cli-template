@@ -1,8 +1,8 @@
 use anyhow::Result;
 use clap::Parser;
 
-/// Say hello to someone.
 #[derive(Parser)]
+#[command(version, about, long_about = None)]
 struct Cli {
     /// Name of the person to greet.
     pub name: String,
