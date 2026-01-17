@@ -50,3 +50,5 @@ jobs:
         with: { tool: nextest@0.9 }
       - name: Nextest
         run: cargo nextest run --profile ci --all-targets
+      - name: Check Install
+        run: cargo install --path .
