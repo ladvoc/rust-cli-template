@@ -1,0 +1,6 @@
+# Configuration for cargo-release
+allow-branch = ["main"]
+pre-release-replacements = [
+    # Update version for install script in README
+    { file="README.md", search="/releases/download/[^/]+/", replace="/releases/download/{{version}}/" }
+]
