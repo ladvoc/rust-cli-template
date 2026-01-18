@@ -18,6 +18,7 @@ CLI starter template for Rust.
   - Install check
   - Lint with Clippy
   - Run tests with [_cargo-nextest_](https://nexte.st)
+  - Link checking with (_lychee_)(https://lychee.cli.rs)
 
 ## Installation
 
